@@ -1,4 +1,8 @@
 {
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "npx nodemon server/index.js"
+  },
   "dependencies": {
     "colors": "^1.4.0",
     "cors": "^2.8.5",
